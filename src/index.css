@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --btn_color: rgb(26, 68, 160);
+    --btn_hover_color: rgba(21, 39, 129, 0.886);
+    --text_color: rgb(26, 79, 160);
+  }
+
+
+.custorm-btn-color{
+    background: var(--btn_color) !important;
+    color: white !important;
+}
+
+.custorm-btn-color:hover{
+    background: var(--btn_hover_color) !important
+}
+
+.custorm-text-color{
+    color: var(--text_color) !important;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+.rr{
+    border: 2px solid red;
+}
+
+.bb{
+    border: 2px solid blue;
+}
